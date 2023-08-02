@@ -1,0 +1,116 @@
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  display: none;
+}
+.mobile-menu__overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(25, 28, 38, 0.2);
+}
+.mobile-menu__content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 337px;
+  min-height: 100vh;
+  background: #fff;
+  box-shadow: -1px 0px 3px 0px rgba(0, 0, 0, 0.16),
+    -2px 0px 4px 0px rgba(0, 0, 0, 0.08), -4px 0px 8px 0px rgba(0, 0, 0, 0.04);
+}
+.mobile-menu__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+}
+.mobile-menu__nav {
+  padding-top: 118px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+}
+.mobile-menu__nav-link {
+  color: #303030;
+}
+.mobile-menu__nav-link:hover,
+.mobile-menu__nav-link:focus {
+  color: var(--accent-color);
+}
+.mobile-menu__nav-link:not(:last-child) {
+  margin-bottom: 24px;
+}
+.mobile-menu__cta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+}
+.mobile-menu__cta-link {
+  margin-bottom: 24px;
+  color: #303030;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.mobile-menu__cta-link:hover,
+.mobile-menu__cta-link:focus {
+  color: var(--accent-color);
+}
+.mobile-menu__cta-btn {
+  width: 194px;
+  height: 40px;
+  color: #303030;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 1px solid var(--accent-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+.mobile-menu__cta-btn:hover,
+.mobile-menu__cta-btn:focus {
+  background-color: var(--accent-color);
+}
+.mobile-menu__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  margin-top: 64px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.8px;
+}
+.mobile-menu__sm-link {
+  color: #303030;
+}
+.mobile-menu__sm-link:hover,
+.mobile-menu__sm-link:focus {
+  color: var(--accent-color);
+}
+.mobile-menu__sm-link:not(:last-child) {
+  margin-bottom: 24px;
+}
