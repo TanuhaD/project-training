@@ -4,12 +4,3 @@
   height: 1px;
   background-color: #303030;
 }
-.decor-bar--hero {
-  top: 8px;
-  left: 0;
-  background-color: rgba(157, 164, 189, 0.6);
-}
-.decor-bar--aside {
-  bottom: 6px;
-  left: -104px;
-}
