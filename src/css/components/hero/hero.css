@@ -31,6 +31,10 @@
     display: block;
   }
 }
+.hero__aside-decor-bar {
+  bottom: 6px;
+  left: -104px;
+}
 .hero__wrapper-social-media {
   width: 200px;
   position: absolute;
@@ -81,12 +85,17 @@
     padding-left: 100px;
   }
 }
-.hero__wrapper-decor-bar-title {
+.hero__wrapper-decor-bar-header {
   position: relative;
   margin-bottom: 20px;
   padding-left: 80px;
 }
-.hero__text {
+.hero__decor-bar {
+  top: 8px;
+  left: 0;
+  background-color: rgba(157, 164, 189, 0.6);
+}
+.hero__header {
   display: inline-block;
   color: rgba(157, 164, 189, 0.6);
   font-family: Open Sans;
@@ -130,4 +139,79 @@
     line-height: 30px; /* 166.667% */
     letter-spacing: 0.36px;
   }
+}
+.sliderIndicator {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 318px;
+    right: 52px;
+    width: 18px;
+    height: 30px;
+  }
+}
+.sliderIndicator-strip {
+  width: 12px;
+  height: 2px;
+  background-color: #9da4bd;
+  transition: width 0.7s ease-in, background-color 0.7s ease-in;
+}
+.sliderIndicator-strip.active {
+  width: 18px;
+  height: 2px;
+  background-color: #fff;
+}
+.sliderIndicator-strip:not(:last-child) {
+  margin-bottom: 13px;
+}
+.hero__wrapper-slider-nav {
+  position: absolute;
+  display: none;
+  top: 606px;
+  right: 51px;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+  @media (min-width: 1280px) {
+    left: 926px;
+  }
+}
+
+.hero__wrapper-slider-nav-btn {
+  position: relative;
+}
+.hero__wrapper-slider-nav-btn:not(:last-child) {
+  margin-right: 46px;
+}
+
+.hero__slider-nav-btn {
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  color: rgba(157, 164, 189, 0.6);
+  border: none;
+  background-color: transparent;
+}
+
+.hero__wrapper-slider-nav-btn:hover .hero__slider-nav-btn,
+.hero__wrapper-slider-nav-btn:focus .hero__slider-nav-btn {
+  color: #fff;
+}
+.hero__wrapper-slider-nav-btn:hover .decor-bar {
+  background-color: #fff;
+}
+.hero__decor-bar-slider-nav-btn_left,
+.hero__decor-bar-slider-nav-btn_right {
+  bottom: -8px;
+  background-color: rgba(157, 164, 189, 0.6);
+}
+.hero__decor-bar-slider-nav-btn_left {
+  left: 6px;
+}
+.hero__decor-bar-slider-nav-btn_right {
+  right: 6px;
 }
