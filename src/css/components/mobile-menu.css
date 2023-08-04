@@ -2,6 +2,7 @@
   position: fixed;
   inset: 0;
   display: none;
+  z-index: 1000;
 }
 .mobile-menu__overlay {
   width: 100%;
@@ -23,8 +24,8 @@
 }
 .mobile-menu__close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 46px;
+  right: 30px;
   width: 40px;
   height: 40px;
 }
@@ -103,6 +104,10 @@
   font-weight: 600;
   line-height: normal;
   letter-spacing: 2.8px;
+}
+.mobile-menu__decor-bar {
+  top: 10px;
+  left: 0;
 }
 .mobile-menu__sm-link {
   color: #303030;
