@@ -1,0 +1,71 @@
+.barba {
+  width: 100%;
+}
+.barba__container {
+  height: 100%;
+  padding: 84px 31px;
+  @media (min-width: 768px) {
+    padding: 100px 39px;
+  }
+  @media (min-width: 1280px) {
+    padding: 130px 55px;
+  }
+}
+.barba__wrapper-decor-bar-header {
+  position: relative;
+  margin-bottom: 44px;
+}
+.barba__decor-bar {
+  top: 7px;
+  left: 0;
+  background: #303030;
+}
+.barba__header {
+  padding-left: 80px;
+  color: #303030;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px; /* 190.909% */
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.barba__wrapper-img {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    justify-content: center;
+  }
+  @media (min-width: 1280px) {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+}
+
+.barba__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    width: 330px;
+    height: 360px;
+    margin-bottom: 0px;
+    margin: 15px;
+  }
+  @media (min-width: 1280px) {
+    width: 270px;
+    height: 360px;
+    margin: 0;
+    margin-right: 30px;
+  }
+}
+.barba__img.last {
+  margin-bottom: 0;
+  @media (min-width: 1280px) {
+    margin-right: 0px;
+  }
+}
