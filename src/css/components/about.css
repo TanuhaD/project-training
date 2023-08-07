@@ -22,6 +22,7 @@
 .about__img {
   width: 330px;
   height: 225px;
+  background-size: contain;
   @media (min-width: 1280px) {
     width: 270px;
     height: 445px;
@@ -30,6 +31,7 @@
 .about__img--1 {
   margin-bottom: 30px;
   background-image: url('../../assets/about-tab-img1.jpg');
+  background-repeat: no-repeat;
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -41,6 +43,7 @@
     margin-bottom: 0;
     margin-right: 30px;
     background-image: url('../../assets/about-des-img1.jpg');
+    background-repeat: no-repeat;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -50,6 +53,7 @@
 }
 .about__img--2 {
   background-image: url('../../assets/about-tab-img2.jpg');
+  background-repeat: no-repeat;
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
