@@ -1,5 +1,8 @@
 .cta-btn {
-  width: 194px;
+  display: inline-block;
+  padding: 12px 10px;
+  text-align: center;
+  width: 160px;
   height: 40px;
   color: #303030;
   font-family: Open Sans;
@@ -13,12 +16,6 @@
   border: 1px solid var(--accent-color);
   background-color: transparent;
   cursor: pointer;
-  @media (min-width: 768px) {
-    width: 160px;
-    height: 40px;
-
-    margin-bottom: 32px;
-  }
 }
 .cta-btn:hover,
 .cta-btn:focus {
