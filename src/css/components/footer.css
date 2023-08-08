@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+}
+.footer__container {
+  height: 100%;
+}
+.footer__wrapper {
+  @media (min-width: 1280px) {
+    height: 644px;
+    display: flex;
+  }
+}
