@@ -77,23 +77,9 @@
   }
 }
 .header__cta-btn {
-  width: 160px;
-  height: 40px;
   color: #fff;
   margin-bottom: 20px;
-  font-family: Open Sans;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 1.08px;
-  text-transform: uppercase;
-  border-radius: 25px;
-  border: 1px solid var(--accent-color);
-  background-color: transparent;
-  cursor: pointer;
-  @media (min-width: 768px) {
-  }
+
   @media (min-width: 1280px) {
     margin-bottom: 0;
     margin-left: 40px;
