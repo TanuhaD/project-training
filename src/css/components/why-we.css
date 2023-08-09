@@ -1,0 +1,120 @@
+.why-we {
+  width: 100%;
+}
+.why-we__container {
+  height: 100%;
+  padding: 84px 31px;
+  @media (min-width: 768px) {
+    padding: 100px 39px;
+  }
+  @media (min-width: 1280px) {
+    padding: 130px 125px 130px 155px;
+
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+.why-we__wrapper-header {
+  margin-bottom: 44px;
+}
+.why-we__wrapper-decor-bar-header {
+  position: relative;
+  margin-bottom: 20px;
+}
+.why-we__decor-bar {
+  top: 7px;
+  left: 0;
+  background: #303030;
+}
+.why-we__header {
+  padding-left: 80px;
+  color: #303030;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.why-we__title {
+  margin-bottom: 20px;
+  color: #303030;
+  font-family: Raleway;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+.why-we__text {
+  color: #555;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
+}
+.why-we__wrapper-feature {
+  display: flex;
+  @media (min-width: 768px) {
+    justify-content: flex-end;
+  }
+  @media (min-width: 1280px) {
+    margin-right: 130px;
+  }
+}
+.why-we__wrapper-feature-left {
+  margin-right: 30px;
+}
+.why-we__wrapper-feature-right {
+  padding-top: 30px;
+}
+.why-we__feature {
+  text-align: center;
+  background: #f7f7f7;
+  padding: 15px 25px;
+  @media (min-width: 480px) {
+    width: 193px;
+    height: 133px;
+    padding: 20px 30px;
+  }
+  @media (min-width: 768px) {
+    width: 210px;
+  }
+  @media (min-width: 1280px) {
+    width: 170px;
+  }
+}
+.why-we__feature:not(:last-child) {
+  margin-bottom: 30px;
+}
+.why-we__feature-num {
+  color: #303030;
+  text-align: center;
+
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+.why-we__feature-plus {
+  position: relative;
+  top: -17px;
+  left: 2px;
+  color: #ff6c00;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.why-we__feature-text {
+  color: #303030;
+  text-align: center;
+
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
