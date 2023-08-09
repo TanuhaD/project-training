@@ -75,18 +75,6 @@
 .mobile-menu__cta-btn {
   width: 194px;
   height: 40px;
-  color: #303030;
-  font-family: Open Sans;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 1.08px;
-  text-transform: uppercase;
-  border-radius: 25px;
-  border: 1px solid var(--accent-color);
-  background-color: transparent;
-  cursor: pointer;
 }
 .mobile-menu__cta-btn:hover,
 .mobile-menu__cta-btn:focus {
