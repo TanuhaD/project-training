@@ -1,0 +1,119 @@
+.registration {
+  width: 100%;
+  background: #191c26;
+}
+.registration__container {
+  height: 100%;
+  padding: 84px 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media (min-width: 768px) {
+    height: 521px;
+    padding: 100px 39px;
+    align-items: flex-start;
+  }
+  @media (min-width: 768px) {
+    padding: 130px 55px 193px 55px;
+  }
+}
+.registration__title {
+  margin-bottom: 44px;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+.registration__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media (min-width: 768px) {
+    align-items: flex-start;
+  }
+}
+.registration__wrpper-input {
+  width: 100%;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+.registration__lable {
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 50%;
+    margin-right: 30px;
+  }
+}
+.registration__lable-phone {
+  widows: 100%;
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
+.registration__input {
+  padding-bottom: 8px;
+  margin-bottom: 44px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+}
+.registration__input::placeholder {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.registration__lable:last-child {
+  @media (min-width: 768px) {
+    gap: none;
+  }
+}
+
+.registration__textarea--message::placeholder {
+  font-family: Arial;
+}
+.registration__textarea--message {
+  width: 100%;
+  height: 75px;
+  color: #fff;
+}
+.registration__btn {
+  color: #fff;
+}
+
+/* registration-modal */
+
+.registration__modal-content {
+  padding: 30px 30px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.registration__modal-name {
+}
+.registration__modal-phone {
+}
+.registration__modal-message {
+}
