@@ -5,12 +5,16 @@ export const initMobileMenu = () => {
   const mobileMenuOverlay = document.querySelector('.mobile-menu__overlay');
   mobMenuOpenBtn.addEventListener('click', showMobileMenu);
   mobMenuClosebtn.addEventListener('click', hideMobileMenu);
-  mobileMenuOverlay.addEventListener('click', hideMobileMenu);
+  mobileMenuOverlay.addEventListener('click', hideMobileMenuByOverlayClick);
 };
 const showMobileMenu = () => {
   mobMenu.style = 'display: block;';
 };
-
+const hideMobileMenuByOverlayClick = (e) => {
+  if (e.target === e.currentTarget) {
+    hideMobileMenu();
+  }
+};
 const hideMobileMenu = () => {
   mobMenu.style = 'display: none;';
 };
