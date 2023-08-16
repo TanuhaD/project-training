@@ -11,7 +11,7 @@ const createHtmlMarkup = ({ name, phone, message }) => {
     <p class="registration__modal-name">${name}</p>
     <p class="registration__modal-phone">${phone}</p>
     <p class="registration__modal-message">${message}</p>
-    <p class="registration__modal-message">Ваша заявка принята. Мы с Вами свяжемся в ближайшее время.</p>
+    <p class="registration__modal-title">Ваша заявка принята. Мы с Вами свяжемся в ближайшее время.</p>
   `;
 };
 
@@ -27,4 +27,5 @@ const handleFormSubmit = (e) => {
   modalContent.innerHTML = createHtmlMarkup({ name, message, phone });
 
   openModal(modalContent);
+  e.target.reset();
 };

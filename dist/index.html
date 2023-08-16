@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbershop</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script type="module" crossorigin src="https://demchenko.online/barbershop/assets/index-642685df.js"></script>
+    <link rel="stylesheet" href="https://demchenko.online/barbershop/assets/index-fb7b6fc4.css">
+  </head>
+
+  <body>
+    <!-- prettier-ignore -->
+    <header class="header">
+      <div class="container header__container">
+        <svg class="header__logo">
+          <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#icon-Logo"></use>
+        </svg>
+    
+        <!-- <img src="./src/assets/Logo.svg" alt="logo" class="header__logo" /> -->
+        <nav class="header__nav">
+          <a href="#about" class="header__nav-link">О нас</a>
+          <a href="#services-prices" class="header__nav-link">Услуги и цена</a>
+          <a href="#masters" class="header__nav-link">Мастера</a>
+          <a href="#contacts" class="header__nav-link">Контакты</a>
+        </nav>
+        <div class="header__cta">
+          <a href="#registration" class="cta-btn header__cta-btn">Онлайн-запись</a>
+    
+          <a href="tel:+380441111111" class="header__cta-link">+380441111111</a>
+        </div>
+        <svg id="mobile-menu-open-btn" class="header__menu-open-btn">
+          <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container hero__container">
+        <aside class="hero__aside">
+          <div class="hero__wrapper-social-media">
+            <div class="decor-bar hero__aside-decor-bar"></div>
+            <a href="#" class="hero__link">Instagram</a>
+            <a href="#" class="hero__link">Youtube</a>
+          </div>
+        </aside>
+        <div class="hero__background hero__background-slide-1" data-num="1"></div>
+        <div class="hero__background hero__background-slide-2" data-num="2"></div>
+        <div class="hero__background hero__background-slide-3" data-num="3"></div>
+        <div class="hero__wrapper-main-bg">
+          <div class="hero__wrapper-decor-bar-header">
+            <div class="decor-bar hero__decor-bar"></div>
+            <h1 class="hero__header">A hair salon for men in Kyiv</h1>
+          </div>
+          <h2 class="hero__title">BarberShop</h2>
+          <p class="hero__decsription">
+            Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со
+            вкусом.
+          </p>
+          <div class="sliderIndicator">
+            <div class="sliderIndicator-strip active" data-num="1"></div>
+            <div class="sliderIndicator-strip" data-num="2"></div>
+            <div class="sliderIndicator-strip" data-num="3"></div>
+          </div>
+          <div class="hero__wrapper-slider-nav">
+            <div class="hero__wrapper-slider-nav-btn">
+              <button
+                id="slider-nav-btn_left"
+                type="button"
+                class="hero__slider-nav-btn"
+              >
+                Назад
+              </button>
+              <div class="decor-bar hero__decor-bar-slider-nav-btn_left"></div>
+            </div>
+            <div class="hero__wrapper-slider-nav-btn">
+              <button
+                id="slider-nav-btn_right"
+                type="button"
+                class="hero__slider-nav-btn"
+              >
+                Вперед
+              </button>
+              <div class="decor-bar hero__decor-bar-slider-nav-btn_right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="mobile-menu__overlay">
+        <div class="mobile-menu__content">
+          <svg id="mobile-menu-close-btn" class="mobile-menu__close">
+            <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#icon-close"></use>
+          </svg>
+          <nav class="mobile-menu__nav">
+            <a href="#about" class="mobile-menu__nav-link">О нас</a>
+            <a href="#services" class="mobile-menu__nav-link">Услуги и цена</a>
+            <a href="#masters" class="mobile-menu__nav-link">Мастера</a>
+            <a href="#contacts" class="mobile-menu__nav-link">Контакты</a>
+          </nav>
+          <div class="mobile-menu__cta">
+            <a href="tel:+380441111111" class="mobile-menu__cta-link"
+              >+380441111111
+            </a>
+            <a href="#registration" class="cta-btn mobile-menu__cta-btn"
+              >Онлайн-запись</a
+            >
+          </div>
+          <div class="mobile-menu__wrapper">
+            <div class="decor-bar mobile-menu__decor-bar"></div>
+            <a href="#" class="mobile-menu__sm-link">Instagram</a>
+            <a href="#" class="mobile-menu__sm-link">Youtube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="about" id="about">
+      <div class="container about__container">
+        <div class="about__column-left">
+          <div class="about__img about__img--1"></div>
+          <div class="about__img about__img--2"></div>
+        </div>
+        <div class="about__column-right">
+          <div class="about__wrapper-decor-bar-header">
+            <div class="decor-bar about__decor-bar"></div>
+            <h2 class="about__header">О нас</h2>
+          </div>
+          <h3 class="about__title">Лучший Барбершоп твоего города</h3>
+          <p class="about__text">
+            Если ты хочешь добавить в свой образ больше уверенности – тебе точно к
+            нам.
+          </p>
+          <p class="about__text">
+            Мы команда, которая никогда не останавливается на достигнутом и жаждет
+            перемен. И когда ты попадешь в руки нашего мастера, то уже никогда не
+            сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной
+            волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам
+            приходит!
+          </p>
+          <a href="#registration" class="cta-btn about__cta-btn">Онлайн-запись</a>
+        </div>
+      </div>
+    </section>
+    <section class="services-prices" id="services-prices">
+      <div class="container services-prices__container">
+        <div class="services-prices__wrapper-decor-bar-header">
+          <div class="decor-bar services-prices__decor-bar"></div>
+          <h2 class="services-prices__header">
+            Проведи время в компании лучших мастеров
+          </h2>
+        </div>
+        <h3 class="services-prices__title">Услуги и цены</h3>
+    
+        <div class="services-prices__wrapper-list">
+          <ul class="services-prices__list services-prices__list--1">
+            <li class="services-prices__item">
+              <p class="services-prices__text">Мужская стрижка</p>
+              <div class="services-prices__decor"></div>
+              <p class="services-prices__price">от 300 грн.</p>
+            </li>
+    
+            <li class="services-prices__item">
+              <p class="services-prices__text">Стрижка бороды</p>
+              <div class="services-prices__decor"></div>
+              <p class="services-prices__price">от 200 грн.</p>
+            </li>
+    
+            <li class="services-prices__item">
+              <p class="services-prices__text">Стрижка усов</p>
+              <div class="services-prices__decor"></div>
+              <p class="services-prices__price">от 200 грн.</p>
+            </li>
+    
+            <li class="services-prices__item">
+              <p class="services-prices__text">Бритье опасной бритвой</p>
+              <div class="services-prices__decor"></div>
+              <p class="services-prices__price">от 200 грн.</p>
+            </li>
+          </ul>
+    
+          <ul class="services-prices__list services-prices__list--2">
+            <li class="services-prices__item">
+              <p class="services-prices__text">Cтрижка у стажера</p>
+              <div class="services-prices__decor"></div>
+              <p class="services-prices__price">от 50 грн.</p>
+            </li>
+    
+            <li class="services-prices__item">
+              <p class="services-prices__text">Стрижка под насадку</p>
+              <div class="services-prices__decor"></div>
+              <p class="services-prices__price">от 200 грн.</p>
+            </li>
+    
+            <li class="services-prices__item">
+              <p class="services-prices__text">Детская стрижка (до 12 лет)</p>
+              <div class="services-prices__decor"></div>
+              <p class="services-prices__price">от 300 грн.</p>
+            </li>
+    
+            <li class="services-prices__item">
+              <p class="services-prices__text">Камуфлирование седины</p>
+              <div class="services-prices__decor"></div>
+              <p class="services-prices__price">от 200 грн.</p>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="services-prices__btn-wrapper">
+          <a href="#registration" class="cta-btn services-prices__btn"
+            >онлайн-запись</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="why-we">
+      <div class="container why-we__container">
+        <div class="why-we__wrapper-header">
+          <div class="why-we__wrapper-decor-bar-header">
+            <div class="decor-bar why-we__decor-bar"></div>
+            <h2 class="why-we__header">старая традиционная школа</h2>
+          </div>
+          <h3 class="why-we__title">Почему приходят именно к нам?</h3>
+          <p class="why-we__text">
+            О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать,
+            чем 10 раз прочитать.
+          </p>
+        </div>
+        <div class="why-we__wrapper-feature">
+          <div class="why-we__wrapper-feature-left">
+            <div class="why-we__feature">
+              <span class="why-we__feature-num">600</span>
+              <span class="why-we__feature-plus">+</span>
+              <p class="why-we__feature-text">Довольных клиентов в день</p>
+            </div>
+            <div class="why-we__feature">
+              <span class="why-we__feature-num">20</span>
+              <span class="why-we__feature-plus">+</span>
+              <p class="why-we__feature-text">Лучших мастеров Киева</p>
+            </div>
+          </div>
+          <div class="why-we__wrapper-feature-right">
+            <div class="why-we__feature">
+              <span class="why-we__feature-num">50</span>
+              <span class="why-we__feature-plus">+</span>
+              <p class="why-we__feature-text">Наград за отличный сервис</p>
+            </div>
+            <div class="why-we__feature">
+              <span class="why-we__feature-num">100</span>
+              <span class="why-we__feature-plus">+</span>
+              <p class="why-we__feature-text">Подарков постоянным клиентам</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="masters" id="masters">
+      <div class="container masters__container">
+        <div class="masters__wrapper-decor-bar-header">
+          <div class="decor-bar masters__decor-bar"></div>
+          <h2 class="masters__header">для настоящих ценителей атмосферы</h2>
+        </div>
+        <h3 class="masters__title">Наши мастера</h3>
+        <div class="masters__wrapper">
+          <div class="masters__wrapper-card">
+            <img
+              src="https://demchenko.online/barbershop/assets/masters-mob-img1@1x-f71116e1.jpg"
+              alt="John Smith"
+              srcset="https://demchenko.online/barbershop/assets/masters-mob-img1@1x-f71116e1.jpg 418w, https://demchenko.online/barbershop/assets/masters-mob-img1@2x-7273836c.jpg 836w"
+              sizes=" (min-width: 1280px) 370px, (min-width: 650px) 600px, 90vw"
+              class="masters__card-img masters__card-img--1"
+            />
+            <p class="masters__card-name">John Smith</p>
+            <p class="masters__card-text">Extreme Barber</p>
+            <ul class="masters__wrapper-card-svg">
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="instagram " width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="twitter" width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="facebook" width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="linkedin" width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="masters__wrapper-card">
+            <img
+              src="https://demchenko.online/barbershop/assets/masters-mob-img2@1x-3b5f6ef4.jpg"
+              alt="Michele Doe"
+              srcset="https://demchenko.online/barbershop/assets/masters-mob-img2@1x-3b5f6ef4.jpg 418w, https://demchenko.online/barbershop/assets/masters-mob-img2@2x-59a89966.jpg 836w"
+              sizes="(min-width: 1280px) 370px, (min-width: 650px) 600px, 90vw"
+              class="masters__card-img masters__card-img--2"
+            />
+            <p class="masters__card-name">Michele Doe</p>
+            <p class="masters__card-text">Extreme Barber</p>
+            <ul class="masters__wrapper-card-svg">
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="instagram " width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="twitter" width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="facebook" width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="linkedin" width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="masters__wrapper-card">
+            <img
+              src="https://demchenko.online/barbershop/assets/masters-mob-img3@1x-3ff6746d.jpg"
+              alt="Alan Black"
+              srcset="https://demchenko.online/barbershop/assets/masters-mob-img3@1x-3ff6746d.jpg 418w, https://demchenko.online/barbershop/assets/masters-mob-img3@2x-0aa276bd.jpg 836w"
+              sizes="(min-width: 1280px) 370px, (min-width: 650px) 600px, 90vw"
+              class="masters__card-img masters__card-img--3"
+            />
+            <p class="masters__card-name">Alan Black</p>
+            <p class="masters__card-text">Extreme Barber</p>
+            <ul class="masters__wrapper-card-svg">
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="instagram " width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="twitter" width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="facebook" width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="masters__box-svg" href="#">
+                  <svg id="linkedin" width="20" height="20">
+                    <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="barba">
+      <div class="container barba__container">
+        <div class="barba__wrapper-decor-bar-header">
+          <div class="decor-bar barba__decor-bar"></div>
+          <h2 class="barba__header">
+            На латинском языке “барба” означает “борода”
+          </h2>
+        </div>
+        <div class="barba__wrapper-img">
+          <picture>
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-des-img1@1x-40cf76cb.jpg 1x, https://demchenko.online/barbershop/assets/barba-des-img1@2x-4e7be3a4.jpg 2x"
+              media="(min-width: 1280px)"
+              sizes="(min-width: 1280px) 270px"
+              type="image/jpeg"
+            />
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-tab-img1@1x-adb0be26.jpg 1x, https://demchenko.online/barbershop/assets/barba-tab-img1@2x-0e42f116.jpg 2x"
+              media="(min-width: 768px)"
+              sizes="(min-width: 768px) 330px"
+              type="image/jpeg"
+            />
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-mob-img1@1x-27854340.jpg 1x, https://demchenko.online/barbershop/assets/barba-mob-img1@2x-1fc00903.jpg 2x"
+              type="image/jpeg"
+            />
+            <img
+              src="https://demchenko.online/barbershop/assets/barba-mob-img1@1x-27854340.jpg"
+              alt="barber and work"
+              class="barba__img"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-des-img2@1x-f22659ec.jpg 1x, https://demchenko.online/barbershop/assets/barba-des-img2@2x-8a89bddd.jpg 2x"
+              media="(min-width: 1280px)"
+              sizes="(min-width: 1280px) 270px"
+              type="image/jpeg"
+            />
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-tab-img2@1x-38c3f319.jpg 1x, https://demchenko.online/barbershop/assets/barba-tab-img2@2x-99f8496a.jpg 2x"
+              media="(min-width: 768px)"
+              sizes="(min-width: 768px) 330px"
+              type="image/jpeg"
+            />
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-mob-img2@1x-e27a6f99.jpg 1x, https://demchenko.online/barbershop/assets/barba-mob-img2@2x-93056feb.jpg 2x"
+              type="image/jpeg"
+            />
+            <img
+              class="barba__img"
+              src="https://demchenko.online/barbershop/assets/barba-mob-img2@1x-e27a6f99.jpg"
+              alt="barber and work"
+            />
+          </picture>
+    
+          <picture>
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-des-img3@1x-04497981.jpg 1x, https://demchenko.online/barbershop/assets/barba-des-img3@2x-4ae7611f.jpg 2x"
+              media="(min-width: 1280px)"
+              sizes="(min-width: 1280px) 270px"
+              type="image/jpeg"
+            />
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-tab-img3@1x-aaf5a634.jpg 1x, https://demchenko.online/barbershop/assets/barba-tab-img3@2x-5953775f.jpg 2x"
+              media="(min-width: 768px)"
+              sizes="(min-width: 768px) 330px"
+              type="image/jpeg"
+            />
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-mob-img3@1x-944bd616.jpg 1x, https://demchenko.online/barbershop/assets/barba-mob-img3@2x-7c6f7e33.jpg 2x"
+              type="image/jpeg"
+            />
+            <img
+              class="barba__img"
+              src="https://demchenko.online/barbershop/assets/barba-mob-img3@1x-944bd616.jpg"
+              alt="barber and work"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-des-img4@1x-26f7dcec.jpg 1x, https://demchenko.online/barbershop/assets/barba-des-img4@2x-7bda4d4e.jpg 2x"
+              media="(min-width: 1280px)"
+              sizes="(min-width: 1280px) 270px"
+              type="image/jpeg"
+            />
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-tab-img4@1x-374491b9.jpg 1x, https://demchenko.online/barbershop/assets/barba-tab-img4@2x-cbabd627.jpg 2x"
+              media="(min-width: 768px)"
+              sizes="(min-width: 768px) 330px"
+              type="image/jpeg"
+            />
+            <source
+              srcset="https://demchenko.online/barbershop/assets/barba-mob-img4@1x-24077592.jpg 1x, https://demchenko.online/barbershop/assets/barba-mob-img4@2x-0beec434.jpg 2x"
+              type="image/jpeg"
+            />
+            <img
+              class="barba__img last"
+              src="https://demchenko.online/barbershop/assets/barba-mob-img4@1x-24077592.jpg"
+              alt="barber and work"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__wrapper"><section class="registration" id="registration">
+      <div class="container registration__container">
+        <h2 class="registration__title">Онлайн-запись</h2>
+        <form id="form-registration" class="registration__form">
+          <div class="registration__wrpper-input">
+            <label class="registration__lable">
+              <input
+                name="name"
+                type="text"
+                class="registration__input"
+                placeholder="Имя*"
+              />
+            </label>
+            <label class="registration__lable-phone">
+              <input
+                name="phone"
+                type="text"
+                class="registration__input"
+                placeholder="Телефон*"
+              />
+            </label>
+          </div>
+          <textarea
+            name="message"
+            type="text"
+            class="registration__input registration__textarea--message"
+            placeholder="сообщение"
+          ></textarea>
+    
+          <button class="cta-btn registration__btn">отправить</button>
+        </form>
+      </div>
+    </section>
+     <section class="contacts" id="contacts">
+      <div class="container contacts__container">
+        <h2 class="contacts__title">Контакты</h2>
+        <div class="contacts__wrapper-list-time">
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a class="contacts__box-svg" href="#">
+                <svg id=" " width="24" height="24">
+                  <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#map-pin"></use>
+                </svg>
+                <span class="contacts__item-text"
+                  >ул. Васильковая, 7А, Киев, 08132</span
+                >
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__box-svg" href="tel:+380441111111">
+                <svg id=" " width="24" height="24">
+                  <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#phone"></use>
+                </svg>
+                <span class="contacts__item-text">+38 044 111 11 11</span>
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__box-svg" href="mailto:barbershop@email.com">
+                <svg id=" " width="24" height="24">
+                  <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#mail"></use>
+                </svg>
+                <span class="contacts__item-text">barbershop@email.com</span>
+              </a>
+            </li>
+          </ul>
+          <div class="contacts__wrapper-time">
+            <div class="contacts__wrapper-decor-bar">
+              <div class="decor-bar contacts__decor-bar"></div>
+              <h3 class="contacts__time-text">время работы</h3>
+            </div>
+            <p class="contacts__time-working">Ежедневно с 9:00 до 22:00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+        <section class="footer-aside">
+          <div class="container footer-aside__container">
+            <div class="footer-aside__social-media">
+              <div class="footer-aside__wrapper-social-media">
+                <div class="decor-bar footer-aside__decor-bar"></div>
+                <a href="#" class="footer-aside__link">Instagram</a>
+                <a href="#" class="footer-aside__link">Youtube</a>
+              </div>
+            </div>
+            <p class="footer-aside__text">&copy; Copyright 2020</p>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <div id="modal" class="modal">
+      <div class="modal__overlay">
+        <div class="modal__content">
+          <svg id="modal-close-btn" class="modal__close">
+            <use href="https://demchenko.online/barbershop/assets/symbol-defs-d36a36f3.svg#icon-close"></use>
+          </svg>
+          <div id="modal__inner" class="modal__inner"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -23,6 +23,7 @@
   width: clamp(300px, 50%, 600px);
   min-height: 250px;
   background-color: #fff;
+  border-radius: 5px;
 }
 .modal__close {
   width: 24px;
